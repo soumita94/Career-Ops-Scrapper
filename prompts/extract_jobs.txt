@@ -4,7 +4,7 @@ Your task:
 
 1. Find where jobs are posted.
 2. Navigate to the actual job board.
-3. Extract all the active jobs.
+3. Extract first 20 active jobs.
 
 Return ONLY JSON.
 
