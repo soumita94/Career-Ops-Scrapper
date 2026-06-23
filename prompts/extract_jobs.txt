@@ -1,0 +1,30 @@
+Visit {company_url}
+
+Your task:
+
+1. Find where jobs are posted.
+2. Navigate to the actual job board.
+3. Extract all the active jobs.
+
+Return ONLY JSON.
+
+Format:
+
+{
+  "jobs":[
+    {
+      "title":"",
+      "url":"",
+      "location":""
+    }
+  ]
+}
+
+Rules:
+
+- Do not explain.
+- Do not use markdown.
+- Do not return text outside JSON.
+- If location not found use "".
+- If no jobs found return:
+  {"jobs":[]}
