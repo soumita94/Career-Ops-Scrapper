@@ -33,6 +33,7 @@ async def sync_company(company_url):
 
         db_job = Job(
             title=job["title"],
+            company_name = job['company_name'],
             apply_url=job["url"],
             location=job["location"],
             company_url=company_url

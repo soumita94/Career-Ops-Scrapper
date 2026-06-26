@@ -13,6 +13,7 @@ Format:
 {
   "jobs":[
     {
+      "company_name" : "",
       "title":"",
       "url":"",
       "location":""

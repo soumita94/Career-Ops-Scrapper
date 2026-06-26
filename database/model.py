@@ -8,6 +8,8 @@ class Job(Base):
 
     id = Column(Integer, primary_key=True)
 
+    company_name = Column(String)
+
     title = Column(String)
 
     apply_url = Column(String, unique=True)

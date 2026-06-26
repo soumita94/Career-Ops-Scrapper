@@ -15,6 +15,7 @@ def search(keyword: str):
     return [
         {
             "title": j.title,
+            "company_name": j.company_name,
             "url": j.apply_url,
             "location": j.location
         }
